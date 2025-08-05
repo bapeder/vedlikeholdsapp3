@@ -4,17 +4,17 @@ import datetime
 import requests
 import sqlite3
 from uuid import uuid4
-from twilio.rest import Client
-from twilio.base.exceptions import TwilioRestException
+# from twilio.rest import Client
+# from twilio.base.exceptions import TwilioRestException
 
 # Konfigurasjon
 st.set_page_config(page_title="Varanger Golfpark Vedlikehold", layout="wide")
 VADSO_LAT, VADSO_LON = 70.1068, 29.3656
 DB_FILE = "golfpark.db"
 USER_AGENT = "VarangerGolfparkApp/1.0 kontakt@varangergolfklubb.no"
-TWILIO_SID = "YOUR_TWILIO_SID"  # Erstatt med Twilio Account SID
-TWILIO_AUTH_TOKEN = "YOUR_TWILIO_AUTH_TOKEN"  # Erstatt med Twilio Auth Token
-TWILIO_PHONE = "YOUR_TWILIO_PHONE"  # Erstatt med Twilio-telefonnummer
+# TWILIO_SID = "YOUR_TWILIO_SID"  # Erstatt med Twilio Account SID
+# TWILIO_AUTH_TOKEN = "YOUR_TWILIO_AUTH_TOKEN"  # Erstatt med Twilio Auth Token
+# TWILIO_PHONE = "YOUR_TWILIO_PHONE"  # Erstatt med Twilio-telefonnummer
 
 # CSS for mobilvennlighet
 with open("style.css") as f:
