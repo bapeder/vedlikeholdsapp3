@@ -1,6 +1,4 @@
-streamlit==1.38.0
-pandas==2.2.2
-requests==2.32.3
-sqlite3
-websocket-client==1.8.0
-streamlit-calendar==0.3.1
+streamlit==1.38.0 
+pandas==2.2.2 
+requests==2.32.3 s
+treamlit-calendar==0.4.01
