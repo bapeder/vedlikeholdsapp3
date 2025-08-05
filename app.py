@@ -15,8 +15,8 @@ DB_FILE = "golfpark.db"
 USER_AGENT = "VarangerGolfparkApp/1.0 kontakt@varangergolfklubb.no"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SMTP_EMAIL = "DIN_GMAIL@GMAIL.COM"  # Erstatt med din Gmail-adresse
-SMTP_PASSWORD = "DIN_APP_PASSWORD"  # Erstatt med Gmail App Password
+SMTP_EMAIL = "vgkvedlikehold@GMAIL.COM"  # Erstatt med din Gmail-adresse
+SMTP_PASSWORD = "VgK2025!"  # Erstatt med Gmail App Password
 
 # CSS for mobilvennlighet
 try:
